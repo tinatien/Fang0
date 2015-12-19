@@ -32,7 +32,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="categoryCell" rowHeight="136" id="XlO-dG-tFP" customClass="HomeCategoryTableViewCell" customModule="Fang0" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="92" width="320" height="136"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="136"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XlO-dG-tFP" id="yNP-e9-VA9">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
@@ -95,7 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x0w-jM-qIu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1368" y="325"/>
+            <point key="canvasLocation" x="592" y="485"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="UaB-Rr-dWn">
@@ -147,7 +147,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TPi-gl-uCo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1650" y="1079"/>
+            <point key="canvasLocation" x="592" y="1219"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="wI8-ma-p7x">
@@ -179,7 +179,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wRH-AH-1H5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1644" y="1822"/>
+            <point key="canvasLocation" x="592" y="1854"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="fRU-E0-hvS">
@@ -242,7 +242,7 @@
         <!--SideBar-->
         <scene sceneID="rI9-l4-qxQ">
             <objects>
-                <tableViewController title="SideBar" id="K1U-Mo-0dv" customClass="MenuController" customModule="poppop" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="SideBar" id="K1U-Mo-0dv" customClass="MenuController" customModule="Fang0" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="p0p-gZ-TMg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -366,7 +366,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aHb-A7-h5y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-319" y="1179"/>
+            <point key="canvasLocation" x="-359" y="1203"/>
         </scene>
     </scenes>
     <resources>

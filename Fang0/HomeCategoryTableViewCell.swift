@@ -22,6 +22,7 @@ extension HomeCategoryTableViewCell : UICollectionViewDataSource {
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("articleCell", forIndexPath: indexPath) as! HomeCollectionViewCell
         return cell
+        
     }
     
 }
