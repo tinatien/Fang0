@@ -28,7 +28,7 @@
                                 </state>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="136" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="OjV-xi-mjC">
-                                <rect key="frame" x="0.0" y="141" width="320" height="427"/>
+                                <rect key="frame" x="0.0" y="203" width="320" height="365"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="categoryCell" rowHeight="136" id="XlO-dG-tFP" customClass="HomeCategoryTableViewCell" customModule="Fang0" customModuleProvider="target">
@@ -39,7 +39,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xSj-9N-82F">
-                                                    <rect key="frame" x="0.0" y="0.0" width="328" height="135"/>
+                                                    <rect key="frame" x="8" y="-8" width="328" height="135"/>
                                                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="5" minimumInteritemSpacing="5" id="aTY-ti-TrP">
                                                         <size key="itemSize" width="117" height="112"/>
                                                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -63,7 +63,7 @@
                                                             <color key="backgroundColor" red="0.74030239769999995" green="0.1705300106" blue="0.15564536909999999" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                                             <size key="customSize" width="117" height="112"/>
                                                             <connections>
-                                                                <outlet property="imageView" destination="DIq-iy-gfv" id="Org-JJ-klG"/>
+                                                                <outlet property="imageView" destination="DIq-iy-gfv" id="Fhc-IY-BHK"/>
                                                             </connections>
                                                         </collectionViewCell>
                                                     </cells>
