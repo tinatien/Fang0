@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 var categories = ["熱門", "最新", "你可能有興趣的文章", "寶貝", "北鼻"]
     @IBOutlet weak var menuButton: UIBarButtonItem!
 
@@ -19,14 +19,10 @@ var categories = ["熱門", "最新", "你可能有興趣的文章", "寶貝", "
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+            self.revealViewController().rearViewRevealWidth = 180
         }
     }
-}
 
-extension HomeViewController : UITableViewDelegate { }
-
-extension HomeViewController : UITableViewDataSource {
-    
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return categories[section]

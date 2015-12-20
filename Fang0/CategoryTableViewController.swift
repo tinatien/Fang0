@@ -11,6 +11,10 @@ import UIKit
 class CategoryTableViewController: UITableViewController {
     @IBOutlet weak var menuButton: UIBarButtonItem!
 
+    var categoryName = ["  文 學 Literature","  藝 術 Art","  科 學 Science","  健 康 Health","  社 會 Society ","  資 訊 Information"]
+    
+    var categoryImage = ["literature.png","art.png","science.png","health.png","society.png","information.png"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -30,23 +34,27 @@ class CategoryTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return self.categoryName.count
     }
 
-    /*
+  
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("categoryCell", forIndexPath: indexPath) as! CategoryTableViewCell
+        
+        
+        cell.categoryLabel.text = categoryName[indexPath.row]
+        cell.categoryImageView.image = UIImage(named: categoryImage[indexPath.row])
 
-        // Configure the cell...
+
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
