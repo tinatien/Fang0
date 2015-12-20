@@ -1,28 +1,23 @@
 //
-//  CategoryTableViewController.swift
+//  ArticleTableViewController.swift
 //  Fang0
 //
-//  Created by TinaTien on 2015/12/19.
+//  Created by TinaTien on 2015/12/20.
 //  Copyright © 2015年 TinaTien. All rights reserved.
 //
 
 import UIKit
 
-class CategoryTableViewController: UITableViewController {
-    @IBOutlet weak var menuButton: UIBarButtonItem!
+class ArticleTableViewController: UITableViewController {
 
-    var categoryName = ["  文 學 Literature","  藝 術 Art","  科 學 Science","  健 康 Health","  社 會 Society ","  資 訊 Information"]
-    
-    var categoryImage = ["literature.png","art.png","science.png","health.png","society.png","information.png"]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if self.revealViewController() != nil {
-            menuButton.target = self.revealViewController()
-            menuButton.action = "revealToggle:"
-            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        }
+        // Uncomment the following line to preserve selection between presentations
+        // self.clearsSelectionOnViewWillAppear = false
+
+        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,23 +29,19 @@ class CategoryTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 10
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return self.categoryName.count
+        return 10
     }
 
-  
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("categoryCell", forIndexPath: indexPath) as! CategoryTableViewCell
-        
-        
-        cell.categoryLabel.text = categoryName[indexPath.row]
-        cell.categoryImageView.image = UIImage(named: categoryImage[indexPath.row])
+        let cell = tableView.dequeueReusableCellWithIdentifier("articleCell", forIndexPath: indexPath) as! ArticleTableViewCell
 
-
+       
 
         return cell
     }
@@ -91,22 +82,13 @@ class CategoryTableViewController: UITableViewController {
     }
     */
 
-  
+    /*
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//        if segue.identifier == "showArticle"{
-//           
-//                let destinationController = segue.destinationViewController as! ArticleTableViewController
-//            destinationController.
-//                
-//                
-//            }
-//            
-//        }
-
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
     }
-   
-
-
+    */
+}

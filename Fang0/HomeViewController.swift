@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 var categories = ["熱門", "最新", "你可能有興趣的文章", "寶貝", "北鼻"]
@@ -21,7 +22,10 @@ var categories = ["熱門", "最新", "你可能有興趣的文章", "寶貝", "
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
             self.revealViewController().rearViewRevealWidth = 180
         }
+        
     }
+
+ 
 
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -39,6 +43,7 @@ var categories = ["熱門", "最新", "你可能有興趣的文章", "寶貝", "
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("categoryCell") as! HomeCategoryTableViewCell
+        
         return cell
     }
     

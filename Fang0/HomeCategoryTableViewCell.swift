@@ -10,8 +10,10 @@ import UIKit
 
 class HomeCategoryTableViewCell: UITableViewCell, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
+
     @IBOutlet weak var collectionView: UICollectionView!
 
+    
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 12
