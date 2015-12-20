@@ -21,6 +21,7 @@
 		6E16CCB21C25973A00FA8649 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E16CCB11C25973A00FA8649 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
 		6EDAD3D91C26915B001E18AF /* ArticleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDAD3D81C26915B001E18AF /* ArticleTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		6EDAD3DB1C269178001E18AF /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDAD3DA1C269178001E18AF /* ArticleTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		6EDAD3DF1C26E0AA001E18AF /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDAD3DE1C26E0AA001E18AF /* ArticleDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		6EE8630A1C266CEE000EB5DA /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE863091C266CEE000EB5DA /* HomeCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		6EE8630C1C2670B1000EB5DA /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE8630B1C2670B1000EB5DA /* CategoryTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		6EF5EB001C259F9E00A2DE8A /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF5EAFF1C259F9E00A2DE8A /* MenuController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -69,6 +70,7 @@
 		6E16CCB41C25996A00FA8649 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "../../../Fang0/Fang0/Bridging-Header.h"; sourceTree = "<group>"; };
 		6EDAD3D81C26915B001E18AF /* ArticleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewController.swift; sourceTree = "<group>"; };
 		6EDAD3DA1C269178001E18AF /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		6EDAD3DE1C26E0AA001E18AF /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
 		6EE863091C266CEE000EB5DA /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		6EE8630B1C2670B1000EB5DA /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		6EF5EAFF1C259F9E00A2DE8A /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				6E16CB921C25923700FA8649 /* CollectionViewController.swift */,
 				6EDAD3D81C26915B001E18AF /* ArticleTableViewController.swift */,
 				6EDAD3DA1C269178001E18AF /* ArticleTableViewCell.swift */,
+				6EDAD3DE1C26E0AA001E18AF /* ArticleDetailViewController.swift */,
 				6E16C9351C25556C00FA8649 /* Main.storyboard */,
 				6E16C93B1C25556C00FA8649 /* Assets.xcassets */,
 				6E16C93D1C25556C00FA8649 /* LaunchScreen.storyboard */,
@@ -383,6 +386,7 @@
 				6EE8630A1C266CEE000EB5DA /* HomeCollectionViewCell.swift in Sources */,
 				6EDAD3D91C26915B001E18AF /* ArticleTableViewController.swift in Sources */,
 				6E16CCB21C25973A00FA8649 /* SWRevealViewController.m in Sources */,
+				6EDAD3DF1C26E0AA001E18AF /* ArticleDetailViewController.swift in Sources */,
 				6E16CA761C2561B400FA8649 /* HomeViewController.swift in Sources */,
 				6E16C9321C25556C00FA8649 /* AppDelegate.swift in Sources */,
 			);

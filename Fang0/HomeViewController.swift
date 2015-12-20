@@ -20,7 +20,10 @@ var categories = ["熱門", "最新", "你可能有興趣的文章", "寶貝", "
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-            self.revealViewController().rearViewRevealWidth = 180
+            self.revealViewController().rearViewRevealWidth = 200
+            
+            navigationController!.navigationBar.barTintColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha:1 )
+
         }
         
     }
